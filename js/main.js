@@ -4,6 +4,5 @@ $(document).ready(function() {
 		offset: [-5, 0],
 		effect: 'slide',
 		tip: '#tooltip'
-	}); 
-	console.log("done");
+	});
 });

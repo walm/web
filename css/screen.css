@@ -26,12 +26,11 @@ p {
 	text-align: center;	
 }
 #andreaswalm {
-	width: 175px;
+	width: 185px;
 	margin: 50px auto;
 }
 
-#header {
-	
+#header {	
 }
 	#header p#vcard {
 		margin: 0;
@@ -44,7 +43,7 @@ p {
 		margin-top: 5px;
 		margin-bottom: 5px;
 	}
-	#header h1 span.family-name {
+	#header h1 span {
 		font-weight: normal;
 	}		
 
@@ -61,11 +60,10 @@ div.line {
 }
 
 #networks {
-	
 }
 	#networks ul {
 		list-style: none outside none;
-		margin: 0;
+		margin: 0 0 0 7px;
 		padding: 0 0 0 10px;
 		height: 150px;
 	}
@@ -95,8 +93,17 @@ div.line {
 #contact {
 	font-size: 12px;
 }
+	#contact .fn, #contact .email {
+		display: none;
+	}
 	#contact .org {
 		font-weight: bold;
+	}	
+	#contact a {
+		font-weight: normal;
+	}
+	#contact div {
+		text-align: center;
 	}
 
 #footer {
